@@ -256,10 +256,6 @@ class battle{
             return;
         }
     }
-
-    turn_detection(){
-        alert(this.turn);
-    }
 }
 
 class bar{
