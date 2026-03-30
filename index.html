@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label id="label1">hello</label>
+        <label id="label2">hello</label>
+        <label id="label3">あなたのHP</label>
+        <label id="label4">敵のHP</label>
+
+        <button id="attack">攻撃</button>
+        <button id="heal">回復</button>
+        <button id="retry" style="display: none;">リトライ</button>
+
+        <button id="turn_detection">検知</button>
+
+        <div id="playerHP_bar" style="width:200px; height:20px; background:gray; margin-bottom:10px;">
+            <div id="player_HP" style="width:200px; height:20px; background:rgb(31, 223, 31);"></div>
+    </div>
+        <div id="enemyHP_bar" style="width:200px; height:20px; background:gray;">
+            <div id="enemy_HP" style="width:200px; height:20px; background:rgb(31, 223, 31);"></div>
+    </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
