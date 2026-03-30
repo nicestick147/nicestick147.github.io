@@ -1,0 +1,103 @@
+#playerHP_bar{
+    position: absolute;
+    top: 410px;
+    left: 560px;
+    width: 200px;
+    height: 20px;
+    background: gray;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#player_HP{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 20px;
+    background: green;
+}
+
+#enemyHP_bar{
+    position: absolute;
+    top: 470px;
+    left: 560px;
+    width: 200px;
+    height: 20px;
+    background: gray;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#enemy_HP{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 20px;
+    background: green;
+    transition: width width 0.3s, background 0.3s;
+}
+
+#label1{
+    position: absolute;
+    top: 200px;
+    left: 622px;
+}
+
+#label2{
+    position: absolute;
+    top: 225px;
+    left: 622px;
+}
+
+#label3{
+    position: absolute;
+    top: 380px;
+    left: 560px;
+}
+
+#label4{
+    position: absolute;
+    top: 440px;
+    left: 560px;
+}
+#attack{
+    position: absolute;
+    top: 280px;
+    left: 495px;
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#heal{
+    position: absolute;
+    top: 280px;
+    left: 712px;
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#retry{
+    position: absolute;
+    top: 510px;
+    left: 590px;
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.774)
+}
